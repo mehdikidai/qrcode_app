@@ -5,5 +5,4 @@ export const downloadImage = (base64Data, filename) => {
     link.href = base64Data;
     link.download = filename;
     link.click();
-    document.body.removeChild(link);
 };
